@@ -1,5 +1,6 @@
 {
   "name": "roypushpak.github.io",
+  "homepage": "https://roypushpak.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,8 +8,9 @@
     "dev": "npm-run-all --parallel dev:frontend dev:backend",
     "dev:frontend": "vite --open",
     "dev:backend": "convex dev",
+    "build": "vite build",
     "lint": "tsc -p convex -noEmit --pretty false && tsc -p . -noEmit --pretty false && convex dev --once && vite build",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
