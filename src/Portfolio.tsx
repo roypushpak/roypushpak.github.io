@@ -123,8 +123,8 @@ export function Portfolio() {
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Pushpak Roy</h1>
             <p className="text-2xl text-gray-600 mb-6">Computer Science Graduate</p>
             <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-              Passionate about creating innovative solutions with modern technologies. 
-              Experienced in Java, Python, C++, and full-stack web development.
+              Computer science graduate with C#/Unity development experience and full-stack
+              finance and AI application projects.
             </p>
           </div>
           <div className="flex justify-center space-x-4">
@@ -152,14 +152,14 @@ export function Portfolio() {
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Hello! I'm Pushpak Roy</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                I'm a passionate Computer Science Graduate from Algoma University with a strong 
-                foundation in software development. I love solving complex problems 
-                and building innovative applications.
+                I'm a Computer Science graduate from Algoma University with a strong
+                foundation in software development, from C# and Unity to full-stack
+                React, TypeScript and Node.js applications.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                My experience includes VR development, data management, and full-stack web 
-                development. I'm always eager to learn new technologies and take on challenging 
-                projects that push me to grow as a developer.
+                I combine software development skills with accounting and enterprise data
+                management experience, which shapes the finance and AI tools I build. I'm always
+                eager to learn new technologies and take on challenging projects.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
@@ -178,19 +178,19 @@ export function Portfolio() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                  Bachelor of Computer Science
+                  Bachelor of Computer Science (Honours)
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                  3.89/4.00 GPA
+                  3.9/4.0 GPA
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                  Experience in VR Development & Data Management
+                  Experience in VR Development, Accounting and Data Management
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                  Proficient in Java, Python, C++, and Web Technologies
+                  Proficient in Java, C++, C#, SQL, JavaScript and Python
                 </li>
               </ul>
             </div>
@@ -202,11 +202,11 @@ export function Portfolio() {
       <section id="skills" className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Skills & Technologies</h2>
-            <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Languages</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Programming</h3>
               <div className="flex flex-wrap gap-2">
-                {['Java', 'Python', 'C++', 'JavaScript', 'TypeScript', 'PHP', 'Swift', 'C#'].map((skill) => (
+                {['Java', 'C++', 'C#', 'SQL', 'JavaScript', 'Python'].map((skill) => (
                   <span key={skill} className="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-sm font-medium">
                     {skill}
                   </span>
@@ -214,20 +214,10 @@ export function Portfolio() {
               </div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Web</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Tools and Platforms</h3>
               <div className="flex flex-wrap gap-2">
-                {['HTML/CSS', 'React', 'SQL', 'Convex', 'LangChain', 'Plaid', 'OpenRouter'].map((skill) => (
+                {['Unity', 'Git', 'Plaid', 'Convex', 'React', 'Node.js'].map((skill) => (
                   <span key={skill} className="bg-green-50 text-green-700 px-3 py-1 rounded-lg text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Developer Tools</h3>
-              <div className="flex flex-wrap gap-2">
-                {['Git', 'VS Code', 'Visual Studio', 'PyCharm', 'IntelliJ', 'Unity3D', 'Cursor'].map((skill) => (
-                  <span key={skill} className="bg-purple-50 text-purple-700 px-3 py-1 rounded-lg text-sm font-medium">
                     {skill}
                   </span>
                 ))}
@@ -245,32 +235,41 @@ export function Portfolio() {
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-2xl border-l-4 border-blue-600">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-semibold text-gray-900">VR Developer</h3>
-                  <p className="text-blue-600 font-medium">Besound Studios</p>
+                  <h3 className="text-2xl font-semibold text-gray-900">VR Developer Intern</h3>
+                  <p className="text-blue-600 font-medium">Besound Studios, Toronto, ON</p>
                 </div>
                 <span className="text-gray-500 font-medium">Jan 2025 - Apr 2025</span>
               </div>
               <ul className="text-gray-600 space-y-2">
-                <li>• Engineered an immersive VR experience using Unity3D, leveraging C# scripting</li>
-                <li>• Designed and implemented animation state machines and controllers</li>
-                <li>• Integrated audio-visual elements for enhanced user experience</li>
-                <li>• Created multiple interactive scenes with smooth transitions</li>
+                <li>• Developed C# application logic for a Unity-based VR training platform, implementing event-driven interactions, animation state machines and scene transitions</li>
+                <li>• Collaborated with cross-disciplinary teams to prototype and test interactive simulations, debug features and analyze performance to improve usability and stability</li>
+                <li>• Documented application architecture and system behaviors to support knowledge transfer and ongoing development</li>
+              </ul>
+            </div>
+            
+            <div className="bg-gradient-to-r from-purple-50 to-violet-50 p-8 rounded-2xl border-l-4 border-purple-600">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 className="text-2xl font-semibold text-gray-900">Deal Analyst</h3>
+                  <p className="text-purple-600 font-medium">Dilawri Group of Companies, Mississauga, ON</p>
+                </div>
+                <span className="text-gray-500 font-medium">Apr 2026 - Jul 2026</span>
+              </div>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Reconciled 150+ transactions monthly and worked with cross-functional stakeholders to resolve pricing discrepancies, missing documentation and posting exceptions in CDK and One-Eighty</li>
               </ul>
             </div>
             
             <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-2xl border-l-4 border-green-600">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-semibold text-gray-900">Data Management Intern</h3>
-                  <p className="text-green-600 font-medium">Transdev Canada</p>
+                  <h3 className="text-2xl font-semibold text-gray-900">Data Management Analyst Intern</h3>
+                  <p className="text-green-600 font-medium">Transdev Canada, Brampton, ON</p>
                 </div>
                 <span className="text-gray-500 font-medium">Jan 2024 - May 2024</span>
               </div>
               <ul className="text-gray-600 space-y-2">
-                <li>• Maintained asset registry for Operations & Maintenance Storage Facility</li>
-                <li>• Built and configured preventive-maintenance schedules and detailed inspection forms</li>
-                <li>• Leveraged Excel pivot tables, lookups, and formulas to analyze inventory</li>
-                <li>• Calculated LRV spare-parts coverage and optimized inventory management</li>
+                <li>• Validated asset records in IBM Maximo and reconciled them against Excel using VLOOKUP and PivotTables, identifying variances and improving data quality and reporting reliability</li>
               </ul>
             </div>
           </div>
@@ -281,20 +280,21 @@ export function Portfolio() {
       <section id="projects" className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Featured Projects</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
               <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-                <span className="text-white text-6xl font-bold">B</span>
+                <span className="text-white text-6xl font-bold">F</span>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Budgeting AI Agent</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Personal Finance AI Manager</h3>
                 <p className="text-gray-600 mb-4">
-                  Personal finance management app with AI-powered transaction categorization and financial insights.
+                  Full-stack finance app with Plaid transaction syncing, AI-assisted categorization, budget and goal tracking, Clerk authentication, and offline transaction storage using service workers and IndexedDB.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">TypeScript</span>
                   <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">React</span>
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">TypeScript</span>
                   <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Convex</span>
+                  <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">Plaid</span>
                 </div>
                 <div className="flex space-x-3">
                   <a href="https://personal-finance-agent-sz7v.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
@@ -309,50 +309,18 @@ export function Portfolio() {
 
             <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
               <div className="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
-                <span className="text-white text-6xl font-bold">M</span>
+                <span className="text-white text-6xl font-bold">I</span>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Movie Management System</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Insurance Quote Agents</h3>
                 <p className="text-gray-600 mb-4">
-                  Responsive movie management system with Gemini AI integration and OMDb API.
+                  Insurance comparison prototype that turns spoken descriptions into structured risk profiles with the Web Speech API, then runs parallel Playwright agents across four simulated carrier sites to normalize coverage into comparable quotes.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
                   <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
-                  <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">SQL</span>
-                </div>
-                <div className="flex space-x-3">
-                  <a href="https://movie-app-grof.onrender.com/" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
-                    Live Demo
-                  </a>
-                  <a href="https://github.com/roypushpak/movie-management-system" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium transition-colors">
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
-                <span className="text-white text-6xl font-bold">R</span>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Reminder App</h3>
-                <p className="text-gray-600 mb-4">
-                  Secure, responsive reminders web application with PostgreSQL database and robust security measures.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
-                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">PostgreSQL</span>
-                  <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
-                </div>
-                <div className="flex space-x-3">
-                  <a href="https://reminders-app-nuw8.onrender.com/" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
-                    Live Demo
-                  </a>
-                  <a href="https://github.com/roypushpak/reminders-app" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium transition-colors">
-                    GitHub
-                  </a>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Node.js</span>
+                  <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Playwright</span>
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Web Speech API</span>
                 </div>
               </div>
             </div>
@@ -364,21 +332,35 @@ export function Portfolio() {
       <section id="education" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Education</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Education Card */}
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
                 <span className="text-white text-2xl font-bold">🎓</span>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-2">Bachelor of Computer Science</h3>
-              <p className="text-blue-600 font-medium mb-2">Algoma University</p>
-              <p className="text-gray-600 mb-4">June 2025</p>
-              <p className="text-gray-600">
-                Specialized in software development and computer science fundamentals.
-                Gained hands-on experience through academic projects and internships.
-              </p>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-2">Bachelor of Computer Science (Honours)</h3>
+              <p className="text-blue-600 font-medium mb-2">Algoma University, Brampton, ON</p>
+              <p className="text-gray-600">2023 - 2025 | GPA: 3.9/4.0</p>
             </div>
 
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
+              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mb-6">
+                <span className="text-white text-2xl font-bold">📊</span>
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-2">Graduate Diploma in Accounting</h3>
+              <p className="text-blue-600 font-medium mb-2">Wilfrid Laurier University, Waterloo, ON</p>
+              <p className="text-gray-600">2026 Candidate</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
+              <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
+                <span className="text-white text-2xl font-bold">💼</span>
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-2">Bachelor of Commerce in Accounting</h3>
+              <p className="text-blue-600 font-medium mb-2">University of Toronto, Mississauga, ON</p>
+              <p className="text-gray-600">2019 - 2023</p>
+            </div>
+          </div>
+          <div className="grid gap-8">
             {/* Coursework Card */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mb-6">
@@ -485,7 +467,7 @@ export function Portfolio() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-gray-400 mb-4">
-            &copy; 2025 Pushpak Roy. All rights reserved.
+            &copy; 2026 Pushpak Roy. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm">
             Built with React, TypeScript, and Tailwind CSS
