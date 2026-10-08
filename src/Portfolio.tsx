@@ -326,6 +326,9 @@ export function Portfolio() {
                   <a href="https://roypushpak.github.io/insurance-quote-agents/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
                     Live Demo
                   </a>
+                  <a href="https://github.com/roypushpak/insurance-quote-agents" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium transition-colors">
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>
@@ -374,6 +377,28 @@ export function Portfolio() {
                     Live Demo
                   </a>
                   <a href="https://github.com/roypushpak/reminders-app" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium transition-colors">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
+              <div className="h-48 bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center">
+                <span className="text-white text-6xl font-bold">C</span>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Chat Application</h3>
+                <p className="text-gray-600 mb-4">
+                  TCP client-server chat app with desktop GUIs, multi-client support, and ACK-based echo responses.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Python</span>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">TCP Sockets</span>
+                  <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">Tkinter</span>
+                </div>
+                <div className="flex space-x-3">
+                  <a href="https://github.com/roypushpak/ChatApplication" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium transition-colors">
                     GitHub
                   </a>
                 </div>
