@@ -331,7 +331,7 @@ export function Portfolio() {
               {'  '}<span className="text-cyan-300">"degree"</span>: <span className="text-amber-200">"BCS (Honours), Algoma U"</span>,{'\n'}
               {'  '}<span className="text-cyan-300">"gpa"</span>: <span className="text-violet-300">3.9</span>,{'\n'}
               {'  '}<span className="text-cyan-300">"languages"</span>: [<span className="text-amber-200">"Java"</span>, <span className="text-amber-200">"C#"</span>, <span className="text-amber-200">"Python"</span>, <span className="text-amber-200">"JS"</span>],{'\n'}
-              {'  '}<span className="text-cyan-300">"building"</span>: <span className="text-amber-200">"finance and AI apps"</span>{'\n'}
+              {'  '}<span className="text-cyan-300">"building"</span>: <span className="text-amber-200">"Finance and AI apps"</span>{'\n'}
               <span className="text-slate-500">{'}'}</span>{'\n'}
               <span className="text-emerald-400">$</span> <span className="inline-block w-2 h-4 align-middle bg-emerald-400 animate-pulse" />
             </pre>
