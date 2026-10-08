@@ -49,7 +49,9 @@ export default {
         }
       },
       fontFamily: {
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
         sans: [
+          'Inter',
           'Inter Variable',
           'ui-sans-serif',
           'system-ui',
