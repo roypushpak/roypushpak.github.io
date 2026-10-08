@@ -280,7 +280,7 @@ export function Portfolio() {
       <section id="projects" className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Featured Projects</h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
               <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
                 <span className="text-white text-6xl font-bold">F</span>
@@ -322,6 +322,61 @@ export function Portfolio() {
                   <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Playwright</span>
                   <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Web Speech API</span>
                 </div>
+                <div className="flex space-x-3">
+                  <a href="https://roypushpak.github.io/insurance-quote-agents/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
+              <div className="h-48 bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center">
+                <span className="text-white text-6xl font-bold">M</span>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Movie Management System</h3>
+                <p className="text-gray-600 mb-4">
+                  Responsive movie management system with Gemini AI integration and OMDb API.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
+                  <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                  <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">SQL</span>
+                </div>
+                <div className="flex space-x-3">
+                  <a href="https://movie-app-grof.onrender.com/" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
+                    Live Demo
+                  </a>
+                  <a href="https://github.com/roypushpak/movie-management-system" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium transition-colors">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
+              <div className="h-48 bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center">
+                <span className="text-white text-6xl font-bold">R</span>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Reminder App</h3>
+                <p className="text-gray-600 mb-4">
+                  Secure, responsive reminders web application with PostgreSQL database and robust security measures.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">PostgreSQL</span>
+                  <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                </div>
+                <div className="flex space-x-3">
+                  <a href="https://reminders-app-nuw8.onrender.com/" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
+                    Live Demo
+                  </a>
+                  <a href="https://github.com/roypushpak/reminders-app" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium transition-colors">
+                    GitHub
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -332,7 +387,7 @@ export function Portfolio() {
       <section id="education" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Education</h2>
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
                 <span className="text-white text-2xl font-bold">🎓</span>
@@ -340,15 +395,6 @@ export function Portfolio() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-2">Bachelor of Computer Science (Honours)</h3>
               <p className="text-blue-600 font-medium mb-2">Algoma University, Brampton, ON</p>
               <p className="text-gray-600">2023 - 2025 | GPA: 3.9/4.0</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
-              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mb-6">
-                <span className="text-white text-2xl font-bold">📊</span>
-              </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-2">Graduate Diploma in Accounting</h3>
-              <p className="text-blue-600 font-medium mb-2">Wilfrid Laurier University, Waterloo, ON</p>
-              <p className="text-gray-600">2026 Candidate</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
